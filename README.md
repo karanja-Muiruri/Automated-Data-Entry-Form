@@ -38,9 +38,19 @@ Microsoft Excel (365) [Download here](https://microsoft.com)
 - Change Caption of Frame1 to "Enter Details", change BorderStyle to "1- fmBorderStyleSingle', and choose BorderColor of your liking from palette.
 - Change Caption of Frame2 to 'Database', change BorderStyle to "1- fmBorderStyleSingle', and choose BorderColor of your liking from palette.
     - ![004](https://github.com/user-attachments/assets/59e3c0ca-96e1-4ba6-b3cd-a74c656faedc)
+- On the Toolbox, select Label, and create three labels on the Enter Details frame. Rename their Captions to Emp ID, Emp Name, Gender respectively.
+- On the Toolbox, select TextBox, add TextBoxes adjacent to both Emp ID and Emp Name Labels, and rename the TextBoxes (Name) TextBox1 to txtID, txtName respectively.
+- On the Toolbox, select OptionButton, create two OptionButtons adjacent to the Gender Label, and rename the OptionButtons (Name) from OptionButton1 to optMale, optFemale respectively. Also edit their Captions to Male and Female.
+- Do the same for Department, City and Country. For Department, replace the TextBox with a ComboBox.
+- Rename the Department ComboBox (Name) from ComboBox1 to cmbDepartment, City (name) to txtCity, Country (Name) to txtCountry.
+- CommandButton1 (Name) to cmdSave, Accelarator set as 's', Backcolor 'Blue', Caption change to 'Save'.
+- CommandButton2 (Name) to cmdReset, Accelarator set as 'r', Backcolor 'Red', Caption change to 'Reset'.
+- Change the TabIndex, starting from Emp ID's TextBox as 1 to Reset CommandButton as 9.
+- On the ToolBox, select CommandButton, create two Command Buttons just below the Country's Label and TextBox.
+    - ![005](https://github.com/user-attachments/assets/003cae74-a774-4ae2-a03e-71d8f9715077)
 
-
-
+- On the ToolBox, select ListBox, draw it on the Database Frame. Rename (Name) from ListBox1 to lstDatabase, Assign TabIndex as 10.
+    - ![006](https://github.com/user-attachments/assets/f539e369-ee6c-42dd-b931-51386d5b7ec7)
 
 
 
